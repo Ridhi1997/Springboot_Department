@@ -1,0 +1,24 @@
+#server:
+#  port: 8082
+#
+#welcome:
+#  message: Welcome to Daily Code Buffer!!
+#
+#spring:
+#  config:
+#    activate:
+#      on-profile: dev
+#
+#---
+#
+#spring:
+#  profiles: dev
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    password: admin
+#    url: jdbc:mysql://localhost:3306/dcbapp
+#    username: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
