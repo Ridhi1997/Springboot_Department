@@ -4,13 +4,14 @@ Spring Boot Important Annotations
 
 This annotation combines @Configuration, @EnableAutoConfiguration, and @ComponentScan to enable the Spring Boot application.
 
-@SpringBootApplication
-public class MySpringBootApplication
-{
-public static void main(String[] args) {
-SpringApplication.run(MySpringBootApplication.class, args);
-}
-}
+    @SpringBootApplication
+   public class MySpringBootApplication
+   {
+       public static void main(String[] args) {
+           SpringApplication.run(MySpringBootApplication.class, args);
+       }
+   }
+   
 ----------------------------------
 
 @Configuration
